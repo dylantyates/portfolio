@@ -1,0 +1,106 @@
+[
+  {
+    "element_category": "Designer",
+    "element_color": "#ff7b01",
+    "element_symbol": "Ai",
+    "element_name": "Illustrator",
+    "element_link": "http://www.adobe.com/products/illustrator.html",
+    "element_lead": "The industry-standard vector graphics app from Adobe lets you create logos, icons, drawings, typography, and illustrations for print, web, video, and mobile."
+  },
+  {
+    "element_category": "Designer",
+    "element_color": "#009688",
+    "element_symbol": "An",
+    "element_name": "Web Animation",
+    "element_link": "https://www.w3.org/TR/web-animations-1/",
+    "element_lead": "The next wave of the web is coming and it will be more interactive and more animated than ever. CSS animations, SVG animations, you name it and it can be done."
+  },
+  {
+    "element_category": "Designer",
+    "element_color": "#690085",
+    "element_symbol": "Ap",
+    "element_name": "Affinity Photo",
+    "element_link": "https://affinity.serif.com/en-us/photo/",
+    "element_lead": "Faster, smoother and more powerful than ever, Affinity Photo continues to push the boundaries for professional photo editing software while its price point remains low."
+  },
+  {
+    "element_category": "Designer",
+    "element_color": "#274ce4",
+    "element_symbol": "C",
+    "element_name": "CSS",
+    "element_link": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3",
+    "element_lead": "CSS3 is the latest evolution of the Cascading Style Sheets language. It brings a lot of long-awaited novelties, gruntless work, as well as new layouts to the web."
+  },
+  {
+    "element_category": "Designer",
+    "element_color": "#f94cff",
+    "element_symbol": "Cc",
+    "element_name": "Adobe Color",
+    "element_link": "https://color.adobe.com/create/color-wheel/",
+    "element_lead": "Formerly known as Kuler, Adobe Color CC is an excellent tool for creating striking and vibrant color palettes for any design purpose. It has a huge collection of example palettes."
+  },
+  {
+    "element_category": "Designer",
+    "element_color": "#a59775",
+    "element_symbol": "Gm",
+    "element_name": "GIMP",
+    "element_link": "https://www.gimp.org/",
+    "element_lead": "A cross-platform image editor available for GNU/Linux, OS X, Windows and more operating systems. It is free software, you can change its source code and distribute your changes."
+  },
+  {
+    "element_category": "Designer",
+    "element_color": "#303030",
+    "element_symbol": "Is",
+    "element_name": "Inkscape",
+    "element_link": "https://inkscape.org/en/",
+    "element_lead": "Inkscape is a professional vector graphics editor for Windows, Mac OS X and Linux. It is a great alternative if your not well off financially. The best part, it's free and open source."
+  },
+  {
+    "element_category": "Designer",
+    "element_color": "#212121",
+    "element_symbol": "Md",
+    "element_name": "Material Design",
+    "element_link": "https://material.io/",
+    "element_lead": "A visual language for users that synthesizes the classic principles of good design with the innovation and possibility of technology and science. Created and maintained by Google."
+  },
+  {
+    "element_category": "Designer",
+    "element_color": "#8bc0fc",
+    "element_symbol": "Ps",
+    "element_name": "Photoshop",
+    "element_link": "http://www.adobe.com/products/photoshop.html",
+    "element_lead": "The world's best imagining and design app. Create and enhance photographs, illustrations, and 3D artwork. Design websites and mobile apps. Edit videos, simulate real-life paintings, and more."
+  },
+  {
+    "element_category": "Designer",
+    "element_color": "#d0639a",
+    "element_symbol": "S",
+    "element_name": "Sass",
+    "element_link": "http://sass-lang.com/",
+    "element_lead": "Syntactically Awesome Style Sheets aka CSS with superpowers. Sass is the most mature, stable, and powerful professional grade CSS extension language in the world."
+  },
+  {
+    "element_category": "Designer",
+    "element_color": "#ff7547",
+    "element_symbol": "Ui",
+    "element_name": "User Interface",
+    "element_link": "https://design.google/",
+    "element_lead": "The space where interactions between humans and machines occur. A good UI is self-explanatory, efficient, enjoyable, and always produces reliable, consistent results."
+  },
+  {
+    "element_category": "Designer",
+    "element_color": "#ae5ba1",
+    "element_symbol": "Ux",
+    "element_name": "User Experience",
+    "element_link": "https://userresearch.google.com/",
+    "element_lead": "User experience encompasses all aspects of the end-user's interaction with the company, its services, and its products. Good UX seamlessly merges simplicity and elegance."
+  },
+  {
+    "element_category": "Designer",
+    "element_color": "#64DD17",
+    "element_symbol": "Vg",
+    "element_name": "Vector Graphics",
+    "element_link": "https://en.wikipedia.org/wiki/Vector_graphics",
+    "element_lead": "The use of polygons to represent images in computer graphics. Each path may be assigned various attributes such as stroke, fill, shape, curve, thickness, and many more."
+  }
+]

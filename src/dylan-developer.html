@@ -1,0 +1,48 @@
+<link rel="import" href="../bower_components/polymer/polymer-element.html">
+<link rel="import" href="../bower_components/iron-ajax/iron-ajax.html">
+<link rel="import" href="../bower_components/iron-list/iron-list.html">
+<link rel="import" href="element-card.html">
+
+<dom-module id="dylan-developer">
+  <template>
+    <style include="shared-styles">
+      :host {
+        display: block;
+      }
+    </style>
+
+    <iron-ajax
+      auto
+      handle-as="json"
+      url="[[rootPath]]data/elements_developer.json"
+      last-response="{{elements}}"></iron-ajax>
+
+    <iron-list items="[[elements]]" as="item" grid>
+      <template>
+        <div>
+          <element-card
+            element-category="[[item.element_category]]"
+            element-name="[[item.element_name]]"
+            element-symbol="[[item.element_symbol]]"
+            element-color="[[item.element_color]]"
+            element-link="[[item.element_link]]"
+            element-lead="[[item.element_lead]]"></element-card>
+        </div>
+      </template>
+    </iron-list>
+
+  </template>
+
+  <script>
+    class DylanDeveloper extends Polymer.Element {
+      static get is() { return 'dylan-developer'; }
+      static get properties() {
+        return {
+          elements: Object
+        }
+      }
+    }
+
+    window.customElements.define(DylanDeveloper.is, DylanDeveloper);
+  </script>
+</dom-module>

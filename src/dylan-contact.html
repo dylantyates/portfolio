@@ -1,0 +1,91 @@
+<link rel="import" href="../bower_components/polymer/polymer-element.html">
+<link rel="import" href="../bower_components/paper-card/paper-card.html">
+<link rel="import" href="../bower_components/paper-input/paper-input.html">
+<link rel="import" href="../bower_components/paper-icon-button/paper-icon-button.html">
+
+<dom-module id="dylan-contact">
+  <template>
+    <style include="shared-styles">
+      :host {
+        display: block;
+        padding: 16px;
+        --paper-input-container-input-color: var(--app-secondary-text);
+        --paper-input-container-focus-color: var(--app-primary-text);
+      }
+      paper-card {
+        display: block;
+        max-width: 512px;
+        margin: 1em auto;
+        padding: 24px;
+      }
+      paper-input,
+      paper-icon-button {
+        transition: all 0.4s ease;
+      }
+      paper-icon-button {
+        color: var(--app-disabled-text);
+      }
+      paper-icon-button:hover {
+        color: var(--app-primary-color);
+      }
+      :host(.success) {
+        color: var(--app-secondary-color);
+      }
+      a {
+        display: block;
+        max-width: 512px;
+        margin: 1em auto;
+        text-decoration: none;
+        background-color: var(--app-primary-color);
+        text-align: center;
+        color: #fff;
+        border-radius: 2px;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        padding: 16px 0;
+      }
+    </style>
+
+    <paper-card>
+      <p class="md-type--title md-type--app-disabled-text">Answer the Question</p>
+      <h3 class="md-type--headline md-type--app-primary-text">What periodic element shares my initials?</h3>
+      <paper-input id="elementGuess" label="Your Answer" pattern="[A-Za-z]{10}">
+        <paper-icon-button icon="dylan-icons:eye" slot="suffix"></paper-icon-button>
+      </paper-input>
+    </paper-card>
+
+    <a href="https://dwreckfoo.github.io/" title="Go Home">Home</a>
+
+  </template>
+
+  <script>
+    class DylanContact extends Polymer.Element {
+      static get is() { return 'dylan-contact'; }
+      static get properties() {
+        return {
+
+        }
+      }
+
+      connectedCallback() {
+        super.connectedCallback();
+        var inp = this.$.elementGuess;
+        inp.addEventListener('change', function(){
+          if(this.value === 'Dysprosium' || this.value === 'dysprosium') {
+            this.label = "Here is my email";
+            this.value = "dyat";
+            this.value += "es.tex";
+            this.value += "as@gmail.com";
+            this.invalid = false;
+          } else {
+            this.label = "Try again. A periodic table is the key.";
+            this.invalid = true;
+            this.value = "";
+          }
+        });
+      }
+    }
+
+    window.customElements.define(DylanContact.is, DylanContact);
+  </script>
+</dom-module>
