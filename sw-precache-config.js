@@ -5,6 +5,11 @@ module.exports = {
     'data/**/*',
     'src/**.html',
     'manifest.json',
+    'browserconfig.xml',
+    'safari-pinned-tab.svg',
+    'favicon.ico',
+    '**.png',
+
   ],
   runtimeCaching: [
     {
