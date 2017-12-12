@@ -1,13 +1,12 @@
 module.exports = {
   staticFileGlobs: [
     'bower_components/webcomponentsjs/webcomponents-loader.js',
-    'images/**/*',
+    'images/*',
     'data/**/*',
     'src/**.html',
     'manifest.json',
     'browserconfig.xml',
     'safari-pinned-tab.svg',
-    'favicon.ico',
     '**.png',
 
   ],
