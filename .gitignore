@@ -51,8 +51,7 @@ coverage
 .sass-cache/
 *.map
 
-# Bower dependency directory (https://bower.io/)
-bower_components
+# REMOVED FOR GH-PAGES !!! Bower dependency directory (https://bower.io/)
 
 # node-waf configuration
 .lock-wscript
