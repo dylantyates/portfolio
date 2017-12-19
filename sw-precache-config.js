@@ -12,6 +12,10 @@ module.exports = {
   ],
   runtimeCaching: [
     {
+      urlPattern: /\/.*/,
+      handler: 'networkFirst',
+    },
+    {
       urlPattern: /\/bower_components\/webcomponentsjs\/.*.js/,
       handler: 'fastest',
       options: {
@@ -20,5 +24,5 @@ module.exports = {
         },
       },
     },
-  ],
+  ]
 };
