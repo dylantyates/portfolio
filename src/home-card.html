@@ -2,6 +2,7 @@
 <link rel="import" href="../bower_components/iron-selector/iron-selector.html">
 <link rel="import" href="../bower_components/paper-card/paper-card.html">
 <link rel="import" href="../bower_components/paper-icon-button/paper-icon-button.html">
+<link rel="import" href="shared-styles.html">
 
 <dom-module id="home-card">
   <template>
@@ -54,20 +55,18 @@
         {{elementLead}}
       </p>
       <p class="md-type--text-center">
-      <iron-selector selected="[[page]]" attr-for-selected="name" class="drawer-list" role="navigation">
-          <a href="https://www.github.com/dwreckfoo" title="Github">
-            <paper-icon-button icon="dylan-icons:github"></paper-icon-button>
-          </a>
-          <a href="https://www.instagram.com/dwreckfoo" title="Instagram">
-            <paper-icon-button icon="dylan-icons:instagram"></paper-icon-button>
-          </a>
-          <a href="https://www.linkedin.com/in/dylanyates" title="LinkedIn">
-            <paper-icon-button icon="dylan-icons:linkedin"></paper-icon-button>
-          </a>
-          <a name="contact" href="[[rootPath]]contact" title="Email">
-            <paper-icon-button icon="dylan-icons:email"></paper-icon-button>
-          </a>
-        </iron-selector>
+        <a href="https://www.github.com/dwreckfoo" title="Github">
+          <paper-icon-button icon="dylan-icons:github"></paper-icon-button>
+        </a>
+        <a href="https://www.instagram.com/dwreckfoo" title="Instagram">
+          <paper-icon-button icon="dylan-icons:instagram"></paper-icon-button>
+        </a>
+        <a href="https://www.linkedin.com/in/dylanyates" title="LinkedIn">
+          <paper-icon-button icon="dylan-icons:linkedin"></paper-icon-button>
+        </a>
+        <a name="contact" href="[[rootPath]]contact" title="Email">
+          <paper-icon-button icon="dylan-icons:email"></paper-icon-button>
+        </a>
       </p>
     </paper-card>
 
@@ -82,23 +81,8 @@
           elementSymbol: String,
           elementName: String,
           elementLead: String,
-          elementLink: String,
-          page: {
-            type: String,
-            reflectToAttribute: true,
-            observer: '_pageChanged',
-          }
+          elementLink: String
         }
-      }
-
-      _pageChanged(page) {
-        // Load page import on demand. Show 404 page if fails
-        var resolvedPageUrl = this.resolveUrl('dylan-' + page + '.html');
-        Polymer.importHref(
-            resolvedPageUrl,
-            null,
-            this._showPage404.bind(this),
-            true);
       }
     }
 
