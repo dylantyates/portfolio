@@ -21,17 +21,34 @@
     "src/home-card.html": {
       "type": "document",
       "weight": 1
+    },
+    "src/shared-styles.html": {
+      "type": "document",
+      "weight": 1
     }
   },
   "src/dylan-all.html": {
     "src/element-card.html": {
       "type": "document",
       "weight": 1
+    },
+    "src/shared-styles.html": {
+      "type": "document",
+      "weight": 1
     }
   },
-  "src/dylan-contact.html": {},
+  "src/dylan-contact.html": {
+    "src/shared-styles.html": {
+      "type": "document",
+      "weight": 1
+    }
+  },
   "src/dylan-designer.html": {
     "src/element-card.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "src/shared-styles.html": {
       "type": "document",
       "weight": 1
     }
@@ -40,10 +57,18 @@
     "src/element-card.html": {
       "type": "document",
       "weight": 1
+    },
+    "src/shared-styles.html": {
+      "type": "document",
+      "weight": 1
     }
   },
   "src/dylan-personal.html": {
     "src/element-card.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "src/shared-styles.html": {
       "type": "document",
       "weight": 1
     }
@@ -52,11 +77,25 @@
     "src/element-card.html": {
       "type": "document",
       "weight": 1
+    },
+    "src/shared-styles.html": {
+      "type": "document",
+      "weight": 1
     }
   },
   "src/dylan-404.html": {},
-  "src/element-card.html": {},
-  "src/home-card.html": {},
+  "src/element-card.html": {
+    "src/shared-styles.html": {
+      "type": "document",
+      "weight": 1
+    }
+  },
+  "src/home-card.html": {
+    "src/shared-styles.html": {
+      "type": "document",
+      "weight": 1
+    }
+  },
   "src/dylan-icons.html": {},
   "src/shared-styles.html": {}
 }
