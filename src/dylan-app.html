@@ -155,7 +155,7 @@
 
     <app-route
         route="{{route}}"
-        pattern="[[rootPath]]:page"
+        pattern=":page"
         data="{{routeData}}"
         tail="{{subroute}}">
     </app-route>
@@ -168,33 +168,33 @@
           <span class="drawer-header">Dylan Yates</span>
         </app-toolbar>
         <iron-selector selected="[[page]]" attr-for-selected="name" class="drawer-list" role="navigation">
-          <a name="home" href="[[rootPath]]home">
+          <a name="home" href="https://dwreckfoo.github.io/portfolio/">
             <paper-icon-button icon="dylan-icons:home_icon"></paper-icon-button>
             <span>Home</span>
           </a>
           <p>Elements</p>
-          <a name="all" href="[[rootPath]]all">
+          <a name="all" href="#all">
             <paper-icon-button icon="dylan-icons:all_icon"></paper-icon-button>
             <span>All</span>
           </a>
-          <a name="designer" href="[[rootPath]]designer">
+          <a name="designer" href="#designer">
             <paper-icon-button icon="dylan-icons:designer_icon"></paper-icon-button>
             <span>Designer</span>
           </a>
-          <a name="developer" href="[[rootPath]]developer">
+          <a name="developer" href="#developer">
             <paper-icon-button icon="dylan-icons:developer_icon"></paper-icon-button>
             <span>Developer</span>
           </a>
-          <a name="personal" href="[[rootPath]]personal">
+          <a name="personal" href="#personal">
             <paper-icon-button icon="dylan-icons:personal_icon"></paper-icon-button>
             <span>Personal</span>
           </a>
-          <a name="social" href="[[rootPath]]social">
+          <a name="social" href="#social">
             <paper-icon-button icon="dylan-icons:social_icon"></paper-icon-button>
             <span>Social</span>
           </a>
           <p>Contact</p>
-          <a name="contact" href="[[rootPath]]contact" class="drawer-contact">
+          <a name="contact" href="#contact" class="drawer-contact">
             <paper-icon-button icon="dylan-icons:email"></paper-icon-button>
             <span>dyates.texas</span>
           </a>
