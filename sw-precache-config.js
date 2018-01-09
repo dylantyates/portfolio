@@ -12,17 +12,8 @@ module.exports = {
   ],
   runtimeCaching: [
     {
-      urlPattern: /https:\/\/dwreckfoo.github.io\/portfolio.*/,
-      handler: 'networkFirst',
-    },
-    {
-      urlPattern: /\/bower_components\/webcomponentsjs\/.*.js/,
-      handler: 'fastest',
-      options: {
-        cache: {
-          name: 'webcomponentsjs-polyfills-cache',
-        },
-      },
-    },
+      urlPattern: /^https:\/\/dwreckfoo\.github\.io\/portfolio/,
+      handler: 'networkFirst'
+    }
   ]
 };
