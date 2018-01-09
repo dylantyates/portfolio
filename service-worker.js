@@ -285,8 +285,7 @@ self.addEventListener('fetch', function(event) {
 
 // Runtime cache configuration, using the sw-toolbox library.
 
-toolbox.router.get(/https:\/\/dwreckfoo.github.io\/portfolio.*/, toolbox.networkFirst, {});
-toolbox.router.get(/\/bower_components\/webcomponentsjs\/.*.js/, toolbox.fastest, {"cache":{"name":"webcomponentsjs-polyfills-cache"}});
+toolbox.router.get(/^https:\/\/dwreckfoo\.github\.io\/portfolio/, toolbox.networkFirst, {});
 
 
 
