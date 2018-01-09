@@ -17,6 +17,10 @@
   ],
   "sources": [
     "src/**/*",
+    "**.png",
+    "safari-pinned-tab.svg",
+    "favicon.ico",
+    "browserconfig.xml",
     "images/**/*",
     "data/**/*",
     "bower.json"
