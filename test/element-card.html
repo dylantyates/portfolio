@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+    <title>element-card</title>
+
+    <script src="../bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+    <script src="../bower_components/web-component-tester/browser.js"></script>
+
+    <!-- Import the element to test -->
+    <link rel="import" href="../src/element-card.html">
+  </head>
+  <body>
+    <test-fixture id="ElementCardTest">
+      <template>
+        <element-card></element-card>
+      </template>
+    </test-fixture>
+
+    <script>
+      suite('element-card tests', function() {
+        test('Link says "Read More"', function() {
+          var elementCard = fixture('ElementCardTest');
+          var lead = elementCard.shadowRoot.querySelector('.md-type--body1');
+          var link = elementCard.shadowRoot.querySelector('.md-type--app-icon-inactive');
+          assert.equal(link.textContent, 'Read More');
+        });
+      });
+    </script>
+  </body>
+</html>
