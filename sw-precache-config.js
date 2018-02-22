@@ -12,7 +12,7 @@ module.exports = {
   ],
   runtimeCaching: [
     {
-      urlPattern: /^https:\/\/dwreckfoo\.github\.io\/portfolio/,
+      urlPattern: /^https:\/\/dwreckfoo\.github\.io\/portfolio\/(.*)/,
       handler: 'networkFirst'
     }
   ]

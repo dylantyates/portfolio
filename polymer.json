@@ -7,10 +7,12 @@
     "src/dylan-contact.html",
     "src/dylan-designer.html",
     "src/dylan-developer.html",
+    "src/dylan-graphics.html",
     "src/dylan-personal.html",
     "src/dylan-social.html",
     "src/dylan-404.html",
     "src/element-card.html",
+    "src/graphics-card.html",
     "src/home-card.html",
     "src/dylan-icons.html",
     "src/shared-styles.html"

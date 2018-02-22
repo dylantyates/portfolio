@@ -158,56 +158,51 @@
 
     </style>
 
-    <app-location
-        route="{{route}}"
-        use-hash-as-path>
-    </app-location>
-
+    <app-location use-hash-as-path route="{{_route}}"></app-location>
     <app-route
-        route="{{route}}"
-        pattern=":page"
-        data="{{routeData}}"
-        tail="{{subroute}}">
-    </app-route>
+        route="{{_route}}"
+        pattern="/:page"
+        data="{{_routeData}}"
+        tail="{{_subRoute}}"></app-route>
 
     <app-drawer-layout fullbleed narrow="{{narrow}}" responsive-width="1920px">
       <!-- Drawer content -->
       <app-drawer id="drawer" slot="drawer" swipe-open="[[narrow]]">
         <app-toolbar>
-          <a name="home" href="#home" class="return-home">
+          <a name="home" href="#/home" class="return-home">
             <img src="[[rootPath]]images/atom.svg" class="drawer-logo" height="56" width="56">
             <span class="drawer-header">Dylan Yates</span>
           </a>
         </app-toolbar>
         <iron-selector selected="[[page]]" attr-for-selected="name" class="drawer-list" role="navigation">
           <p>Elements</p>
-          <a name="all" href="#all">
+          <a name="all" href="#/all">
             <paper-icon-button icon="dylan-icons:all_icon"></paper-icon-button>
             <span>All</span>
           </a>
-          <a name="designer" href="#designer">
+          <a name="designer" href="#/designer">
             <paper-icon-button icon="dylan-icons:designer_icon"></paper-icon-button>
             <span>Designer</span>
           </a>
-          <a name="developer" href="#developer">
+          <a name="developer" href="#/developer">
             <paper-icon-button icon="dylan-icons:developer_icon"></paper-icon-button>
             <span>Developer</span>
           </a>
-          <a name="personal" href="#personal">
+          <a name="personal" href="#/personal">
             <paper-icon-button icon="dylan-icons:personal_icon"></paper-icon-button>
             <span>Personal</span>
           </a>
-          <a name="social" href="#social">
+          <a name="social" href="#/social">
             <paper-icon-button icon="dylan-icons:social_icon"></paper-icon-button>
             <span>Social</span>
           </a>
           <p>Graphic Design</p>
-          <a name="graphics" href="#graphics">
+          <a name="graphics" href="#/graphics">
             <paper-icon-button icon="dylan-icons:graphics_icon"></paper-icon-button>
             <span>All</span>
           </a>
           <p>Contact</p>
-          <a name="contact" href="#contact" class="drawer-contact">
+          <a name="contact" href="#/contact" class="drawer-contact">
             <paper-icon-button icon="dylan-icons:email"></paper-icon-button>
             <span>dyates.texas</span>
           </a>
@@ -263,14 +258,14 @@
 
       static get properties() {
         return {
-          elements: Object,
+          _route: Object,
           page: {
             type: String,
             reflectToAttribute: true,
             observer: '_pageChanged',
           },
-          routeData: Object,
-          subroute: String,
+          _routeData: Object,
+          _subRoute: Object,
           // This shouldn't be neccessary, but the Analyzer isn't picking up
           // Polymer.Element#rootPath
           rootPath: String
@@ -279,24 +274,22 @@
 
       static get observers() {
         return [
-          '_routePageChanged(routeData.page)',
-        ];
+          '_routePageChanged(_routeData.page)'
+        ]
       }
 
       _routePageChanged(page) {
         // If no page was found in the route data, page will be an empty string.
-        // Default to 'home' in that case.
+        // Default to 'view1' in that case.
         this.page = page || 'home';
-
         // Close a non-persistent drawer when the page & route are changed.
         if (!this.$.drawer.persistent) {
           this.$.drawer.close();
         }
       }
-
       _pageChanged(page) {
         // Load page import on demand. Show 404 page if fails
-        var resolvedPageUrl = this.resolveUrl('dylan-' + page + '.html');
+        const resolvedPageUrl = this.resolveUrl('dylan-' + page + '.html');
         Polymer.importHref(
             resolvedPageUrl,
             null,
