@@ -1,0 +1,49 @@
+<link rel="import" href="../bower_components/polymer/polymer-element.html">
+<link rel="import" href="../bower_components/iron-ajax/iron-ajax.html">
+<link rel="import" href="../bower_components/iron-list/iron-list.html">
+<link rel="import" href="graphics-card.html">
+
+<dom-module id="dylan-graphics">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+
+    <iron-ajax
+      auto
+      handle-as="json"
+      url="[[rootPath]]data/graphics.json"
+      last-response="{{graphics}}"></iron-ajax>
+
+    <iron-list id="GraphicsList" items="[[graphics]]" as="item" grid>
+      <template>
+        <div>
+          <graphics-card
+            graphics-category="[[item.graphics_category]]"
+            graphics-color="[[item.graphics_color]]"
+            graphics-image="[[item.graphics_image]]"
+            graphics-name="[[item.graphics_name]]"
+            graphics-lead="[[item.graphics_lead]]"></graphics-card>
+        </div>
+      </template>
+    </iron-list>
+
+
+  </template>
+
+  <script>
+    class DylanGraphics extends Polymer.Element {
+      static get is() { return 'dylan-graphics'; }
+      static get properties() {
+        return {
+          rootPath: String,
+          graphics: Object
+        }
+      }
+    }
+
+    window.customElements.define(DylanGraphics.is, DylanGraphics);
+  </script>
+</dom-module>

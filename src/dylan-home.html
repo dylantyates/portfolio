@@ -1,6 +1,7 @@
 <link rel="import" href="../bower_components/polymer/polymer-element.html">
 <link rel="import" href="../bower_components/iron-selector/iron-selector.html">
 <link rel="import" href="../bower_components/paper-icon-button/paper-icon-button.html">
+<link rel="import" href="../bower_components/iron-image/iron-image.html">
 <link rel="import" href="../bower_components/paper-card/paper-card.html">
 <link rel="import" href="home-card.html">
 <link rel="import" href="shared-styles.html">
@@ -10,11 +11,29 @@
     <style include="shared-styles">
       :host {
         display: block;
+      }
+      iron-image {
+        margin-left: 48px;
+        margin-top: 24px;
+      }
+      .secondary-bg {
+        background-color: var(--app-primary-color);
+        color: #fff;
+      }
+      .secondary-bg p {
+        color: rgba(255,255,255,0.54);
+        max-width: 512px;
+      }
+      section {
+        min-height: 100vh;
         padding: 16px;
       }
       .container {
         max-width: 992px;
         margin: 2em auto;
+      }
+      .center-align {
+        margin: 25vh auto;
       }
       .col {
         padding: 16px;
@@ -38,6 +57,11 @@
         clear: none;
         float: right;
       }
+      .responsive-image {
+        width: 540px;
+        height: 440px;
+        max-width: 100%;
+      }
       .blue-grey-card-800 {
         background-color: var(--paper-blue-grey-800);
       }
@@ -56,13 +80,40 @@
       .main-logo {
         max-width: 100%;
       }
+      .anchor-button {
+        display: block;
+        padding: 16px;
+        max-width: 128px;
+        margin-left: auto;
+        margin-right: 0;
+        margin-top: 16px;
+        color: #fff;
+        text-align: center;
+        border-radius: 2px;
+      }
       @media (max-width: 992px) {
         .container {
           @apply --layout-vertical;
           margin: 0 auto;
         }
+        .secondary-bg {
+          text-align: center;
+        }
+        .secondary-bg h2 {
+          max-width: 512px;
+          margin: 1.2em auto;
+          text-align: left;
+        }
+        .secondary-bg p {
+          margin: 0 auto;
+        }
+        iron-image {
+          margin-left: 0;
+        }
       }
     </style>
+
+    <section>
 
     <div class="container">
 
@@ -71,11 +122,11 @@
           element-name="Dylan Yates"
           element-symbol="Dy"
           element-color="#CFD8DC"
-          element-lead="Welcome to my portfolio. I am a 26 year old front end web developer / graphic designer who currently resides in Houston, TX. I am currently seeking employment within the industry. Click any of the links below to get in touch with me."></home-card>
+          element-lead="Welcome to my portfolio. I am a 26 year old front end web developer / graphic designer who currently resides in Houston, TX. Javascript is the future! Click any of the links below to get in touch with me."></home-card>
       </div>
 
       <div class="col col-6">
-        <iron-selector selected="[[page]]" attr-for-selected="name" class="drawer-list" role="navigation">
+        <iron-selector selected="[[page]]" attr-for-selected="name" role="navigation">
           <a href="#all" name="all">
             <paper-card class="blue-grey-card-800">
               <h2 class="md-type--title md-type--flatten-margin-all">All Elements</h2>
@@ -109,6 +160,31 @@
         </iron-selector>
       </div>
     </div>
+
+    </section>
+
+    <section class="secondary-bg">
+      <div class="container center-align">
+        <div class="col col-6">
+          <h2 class="md-type--display2">Graphic Design</h2>
+          <p class="md-type--subhead md-type--text-justify">I will consistently update my graphic design portfolio with new artwork in my spare time. If you or your business need help with your logo, branding, graphics, or any other digital deliverable I'd be happy to help.
+          <br><br>
+          Feel free to check out @dwreckfoo on Instagram. The best way to contact me regarding graphic design is via email or a direct message on Instagram.</p>
+          <a href="#graphics" name="graphics" class="anchor-button md-type--button blue-grey-card-600">All Graphics</a>
+        </div>
+        <div class="col col-6">
+          <iron-image
+            class="responsive-image"
+            sizing="cover"
+            style="background-color:slategray;"
+            src="[[rootPath]]images/graphics.jpg"
+            fade
+            preload>
+          </iron-image>
+        </div>
+      </div>
+    </section>
+
   </template>
 
   <script>
