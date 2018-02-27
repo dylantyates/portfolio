@@ -1,5 +1,12 @@
 [
   {
+    "graphics_category": "Featured",
+    "graphics_color": "#ffffff",
+    "graphics_name": "Colored Crypto",
+    "graphics_lead": "Colored crypto currencies.",
+    "graphics_image": "images/graphics/colored-crypto-coins.png"
+  },
+  {
     "graphics_category": "Animated",
     "graphics_color": "#FC01FC",
     "graphics_name": "Existential Crisis",
