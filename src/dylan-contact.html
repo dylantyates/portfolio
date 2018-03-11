@@ -51,12 +51,20 @@
         padding: 16px 0;
         cursor: pointer;
       }
+      a {
+        text-decoration: none;
+        color: inherit;
+        font-weight: 500;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
     </style>
 
-    <form action="https://formspree.io/dyates.texas@gmail.com" method="POST">
+    <form action="https://formspree.io/dwreckfoo.github@gmail.com" method="POST">
       <paper-card>
         <h2 class="md-type--display1 md-type--app-primary-text md-type--bold">Get In Touch</h2>
-        <p class="md-type--subhead md-type--app-primary-text">Are you in need of <strong>graphic design</strong>, <strong>web design</strong>, <strong>front end web development</strong>, or <strong>website consulting</strong>? If so, fill out the form below to send me your contact information. If not, feel free to still get in touch.</p>
+        <p class="md-type--subhead md-type--app-primary-text">Are you in need of <a name="graphics" href="[[rootPath]]#/graphics" title="Graphic Design Elements">graphic design</a>, <a name="graphics" href="[[rootPath]]#/designer" title="Web Design Elements">web design</a>, <a name="graphics" href="[[rootPath]]#/developer" title="Web Developer Elements">front end web development</a>, or <a name="graphics" href="[[rootPath]]#/all" title="All Elements">website consulting</a>? If so, fill out the form below to send me your contact information. If not, feel free to still get in touch with me.</p>
         <paper-input type="text" name="name" label="Full Name" value="{{fullName}}"></paper-input>
         <paper-input type="email" name="_replyTo" label="Email Address" value="{{emailAddress}}"></paper-input>
       </paper-card>
