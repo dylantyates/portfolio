@@ -32,11 +32,16 @@
       :host(.success) {
         color: var(--app-secondary-color);
       }
-      a {
+      button[disabled] {
+        cursor: auto;
+        pointer-events: none;
+        opacity: 0.54;
+      }
+      button {
         display: block;
+        width: 100%;
         max-width: 512px;
         margin: 1em auto;
-        text-decoration: none;
         background-color: var(--app-primary-color);
         text-align: center;
         color: #fff;
@@ -44,18 +49,19 @@
         -webkit-border-radius: 2px;
         -moz-border-radius: 2px;
         padding: 16px 0;
+        cursor: pointer;
       }
     </style>
 
-    <paper-card>
-      <p class="md-type--title md-type--app-disabled-text">Answer the Question</p>
-      <h3 class="md-type--headline md-type--app-primary-text">What periodic element shares my initials?</h3>
-      <paper-input id="elementGuess" label="Your Answer" pattern="[A-Za-z]{10}">
-        <paper-icon-button icon="dylan-icons:eye" slot="suffix"></paper-icon-button>
-      </paper-input>
-    </paper-card>
-
-    <a name="home" href="#/home" title="Go Home">Home</a>
+    <form action="https://formspree.io/dyates.texas@gmail.com" method="POST">
+      <paper-card>
+        <h2 class="md-type--display1 md-type--app-primary-text md-type--bold">Get In Touch</h2>
+        <p class="md-type--subhead md-type--app-primary-text">Are you in need of <strong>graphic design</strong>, <strong>web design</strong>, <strong>front end web development</strong>, or <strong>website consulting</strong>? If so, fill out the form below to send me your contact information. If not, feel free to still get in touch.</p>
+        <paper-input type="text" name="name" label="Full Name" value="{{fullName}}"></paper-input>
+        <paper-input type="email" name="_replyTo" label="Email Address" value="{{emailAddress}}"></paper-input>
+      </paper-card>
+      <button class="md-type--button" type="submit" title="Send Email" disabled$="{{formValid}}">SEND</button>
+    </form>
 
   </template>
 
@@ -64,26 +70,36 @@
       static get is() { return 'dylan-contact'; }
       static get properties() {
         return {
-          rootPath: String
+          rootPath: String,
+          fullName: {
+            type: String,
+            notify: true,
+            value: ''
+          },
+          emailAddress: {
+            type: String,
+            notify: true,
+            value: ''
+          },
+          formValid: {
+            computed: '_validateInputs(fullName, emailAddress)'
+          }
         }
       }
 
       connectedCallback() {
         super.connectedCallback();
-        var inp = this.$.elementGuess;
-        inp.addEventListener('change', function(){
-          if(this.value === 'Dysprosium' || this.value === 'dysprosium') {
-            this.label = "Here is my email";
-            this.value = "dyat";
-            this.value += "es.tex";
-            this.value += "as@gmail.com";
-            this.invalid = false;
-          } else {
-            this.label = "Try again. A periodic table is the key.";
-            this.invalid = true;
-            this.value = "";
-          }
-        });
+        // Disable button by setting inputs to undefined
+        this.$.fullName = undefined;
+        this.$.emailAddress = undefined;
+      }
+
+      _validateInputs(from, reply) {
+        if(!from || !reply || reply.length < 6) {
+          return true;
+        } else {
+          return false;
+        }
       }
     }
 

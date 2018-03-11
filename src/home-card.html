@@ -28,6 +28,7 @@
       }
       .toolbar {
         height: 34px;
+        line-height: 34px;
         max-width: 100%;
         border-radius: 2px;
         -webkit-border-radius: 2px;
@@ -77,6 +78,8 @@
       static get is() { return 'home-card'; }
       static get properties() {
         return {
+          myStatus: String,
+          myStatusIcon: String,
           elementColor: String,
           elementSymbol: String,
           elementName: String,
