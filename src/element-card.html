@@ -29,10 +29,13 @@
       .push-left {
         padding-left: 12px;
       }
+      .fixed-height {
+        min-height: 154px;
+      }
       paper-card {
         width: 320px;
         max-width: 100%;
-        min-height: 512px;
+        min-height: 522px;
         padding: 16px;
         padding-bottom: 32px;
       }
@@ -63,7 +66,7 @@
       <p class="md-type--display1 md-type--flatten-margin-all">
         <span class="md-type--display1 md-type--app-primary-text md-type--flatten-margin-bottom">{{elementName}}</span>
       </p>
-      <p class="push-left md-type--body1 md-type--app-secondary-text md-type--flatten-margin-all">
+      <p class="push-left fixed-height md-type--subhead md-type--app-secondary-text md-type--flatten-margin-all md-type--text-justify">
         {{elementLead}}
       </p>
       <p class="md-type--display1 md-type--text-right md-type--flatten-margin-all">
