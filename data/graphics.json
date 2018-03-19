@@ -1,6 +1,13 @@
 [
   {
-    "graphics_category": "Featured",
+    "graphics_category": "Logos",
+    "graphics_color": "#0076CA",
+    "graphics_name": "cookiecutter-git",
+    "graphics_lead": "A project template for git repos.",
+    "graphics_image": "images/graphics/cookiecutter-git.png"
+  },
+  {
+    "graphics_category": "Vector",
     "graphics_color": "#ffffff",
     "graphics_name": "Colored Crypto",
     "graphics_lead": "Colored crypto currencies.",
