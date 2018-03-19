@@ -5,10 +5,10 @@
 ###### These are the best ways to get in touch with me.
 **Gmail**: dyates.texas@gmail.com <br><br>
 **LinkedIn**: [dylanyates](https://www.linkedin.com/in/dylanyates/) <br><br>
-**Instagram**: [@dwreckfoo](https://www.instagram.com/dwreckfoo/) <br><br>
+**Instagram**: [@dylantyates](https://www.instagram.com/dwreckfoo/) <br><br>
 
 #### My Portfolio
-###### I encourage you to check out <a href="https://dwreckfoo.github.io">dwreckfoo.github.io</a> if you would like to learn more about what I do, see some of my example projects, or check out my blog in a more asthetically pleasing format.
+###### I encourage you to check out <a href="https://dylantyates.github.io">dylantyates.github.io</a> if you would like to learn more about what I do, see some of my example projects, or check out my blog in a more asthetically pleasing format.
 
 
 #### Current Technology
@@ -40,6 +40,8 @@
 
 #### Professional Projects
 ###### A list of professional projects I've either worked on, consulted for, or collaborated on.
+- [Marlin USA Energy](https://marlinusaenergy.com)
+- [setupmystack](https://setupmystack.com)
 - [Tigress Energy Partners](https://tigressenergy.com)
 - [Tigress Financial Partners](http://tigressfp.com/cgi-bin/index.pl)
 - [Excel Automotive Technology](https://excelautotech.com)
