@@ -1,48 +1,77 @@
 {
   "entrypoint": "index.html",
-  "shell": "src/dylan-app.html",
-  "fragments": [
-    "src/dylan-home.html",
-    "src/dylan-all.html",
-    "src/dylan-contact.html",
-    "src/dylan-designer.html",
-    "src/dylan-developer.html",
-    "src/dylan-graphics.html",
-    "src/dylan-personal.html",
-    "src/dylan-social.html",
-    "src/dylan-404.html",
-    "src/element-card.html",
-    "src/graphics-card.html",
-    "src/home-card.html",
-    "src/dylan-icons.html",
-    "src/shared-styles.html"
-  ],
+  "shell": "src/dylan-app.js",
   "sources": [
-    "src/**/*",
-    "**.png",
-    "safari-pinned-tab.svg",
-    "favicon.ico",
-    "browserconfig.xml",
-    "images/**/*",
-    "data/**/*",
-    "bower.json"
+    "images/**/*"
   ],
   "extraDependencies": [
-    "manifest.json",
-    "bower_components/webcomponentsjs/*.js"
+    "**.png",
+    "safari-pinned-tab.svg",
+    "browserconfig.xml",
+    "site.webmanifest",
+    "node_modules/@webcomponents/webcomponentsjs/*.js",
+    "!node_modules/@webcomponents/webcomponentsjs/gulpfile.js",
+    "node_modules/@webcomponents/webcomponentsjs/bundles/*.js"
   ],
-  "lint": {
-    "rules": ["polymer-2"]
-  },
   "builds": [
     {
-      "preset": "es5-bundled"
+      "name": "esm-bundled",
+      "browserCapabilities": [
+        "es2015",
+        "modules"
+      ],
+      "js": {
+        "minify": true
+      },
+      "css": {
+        "minify": true
+      },
+      "html": {
+        "minify": true
+      },
+      "bundle": true,
+      "addServiceWorker": true
     },
     {
-      "preset": "es6-bundled"
+      "name": "es6-bundled",
+      "browserCapabilities": [
+        "es2015"
+      ],
+      "js": {
+        "minify": true,
+        "transformModulesToAmd": true
+      },
+      "css": {
+        "minify": true
+      },
+      "html": {
+        "minify": true
+      },
+      "bundle": true,
+      "addServiceWorker": true
     },
     {
-      "preset": "es6-unbundled"
+      "name": "es5-bundled",
+      "js": {
+        "minify": true,
+        "compile": true,
+        "transformModulesToAmd": true
+      },
+      "css": {
+        "minify": true
+      },
+      "html": {
+        "minify": true
+      },
+      "bundle": true,
+      "addServiceWorker": true
     }
-  ]
+  ],
+  "moduleResolution": "node",
+  "npm": true,
+  "lint": {
+    "rules": [
+      "polymer-3"
+    ]
+  }
 }
