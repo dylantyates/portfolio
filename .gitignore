@@ -60,7 +60,6 @@ coverage
 build/Release
 
 # Dependency directories
-node_modules/
 jspm_packages/
 
 # Typescript v1 declaration files
