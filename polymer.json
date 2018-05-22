@@ -2,7 +2,8 @@
   "entrypoint": "index.html",
   "shell": "src/dylan-app.js",
   "sources": [
-    "images/**/*"
+    "images/**/*",
+    "src/**/*"
   ],
   "extraDependencies": [
     "**.png",

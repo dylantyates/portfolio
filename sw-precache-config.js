@@ -1,17 +1,16 @@
-/**
- * @license
- * Copyright (c) 2018 The Polymer Project Authors. All rights reserved.
- * This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
- * The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
- * The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
- * Code distributed by Google as part of the polymer project is also
- * subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
- */
-
 module.exports = {
   staticFileGlobs: [
-    'src/**/*',
-    'manifest.json'
+    'images/**/*',
+    'data/**/*',
+    'android-chrome-192x192.png',
+    'android-chrome-512x512.png',
+    'favicon.ico',
+    'safari-pinned-tab.svg',
+    'favicon-16x16.png',
+    'favicon-32x32.png',
+    'mstile-150x150.png',
+    'browserconfig.xml',
+    'site.webmanifest'
   ],
   runtimeCaching: [
     {

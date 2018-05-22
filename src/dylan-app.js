@@ -81,6 +81,7 @@ class DylanApp extends PolymerElement {
         }
 
         .drawer-logo {
+          margin-top: -40px;
           margin-left: -8px;
           display: inline-block;
           vertical-align: middle;
@@ -93,14 +94,21 @@ class DylanApp extends PolymerElement {
           font-weight: bolder;
           margin: 0;
           margin-left: 4px;
-          margin-top: -16px;
           vertical-align: sub;
         }
 
+        .drawer-header span {
+          @apply --paper-font-subhead;
+          opacity: 0.7;
+        }
+
         .return-home {
+          outline: none;
           display: block;
           text-decoration: none;
           margin: 0;
+          margin-top: 20px;
+          margin-bottom: -20px;
           padding: 0;
         }
 
@@ -154,6 +162,22 @@ class DylanApp extends PolymerElement {
         [main-title] {
           font-weight: 100;
         }
+        iron-pages {
+            padding-bottom: 64px;
+        }
+        footer {
+            position: absolute;
+            color: var(--app-primary-text);
+            opacity: 0.7;
+            font-weight: 300;
+            font-size: 14px;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            text-align: center;
+            margin-top: 20px;
+            line-height: 24px;
+        }
       </style>
 
       <app-location url-space-regex="[[rootPath]]" route="{{_route}}"></app-location>
@@ -167,9 +191,9 @@ class DylanApp extends PolymerElement {
         <!-- Drawer content -->
         <app-drawer id="drawer" slot="drawer" swipe-open="[[narrow]]">
           <app-toolbar>
-            <a name="home" href\$="[[rootPath]]home" class="return-home">
+            <a name="home" href\$="[[rootPath]]" class="return-home">
               <img src="[[rootPath]]images/atom.svg" class="drawer-logo" height="56" width="56">
-              <span class="drawer-header">Dylan Yates</span>
+              <span class="drawer-header">Dylan Yates <br> <span>Portfolio</span></span>
             </a>
           </app-toolbar>
           <iron-selector selected="[[page]]" attr-for-selected="name" class="drawer-list" role="navigation">
@@ -223,9 +247,12 @@ class DylanApp extends PolymerElement {
         <app-header-layout>
 
           <app-header slot="header" reveals effects="waterfall">
-            <app-toolbar>
+          <app-toolbar>
               <paper-icon-button icon="dylan-icons:menu" drawer-toggle></paper-icon-button>
-              <div main-title><a href\$="[[rootPath]]home" name="home">Home</a> &gt; <a href\$="[[rootPath]]{{page}}" name="[[page]]"></a></div>
+              <div main-title>[[page]]</div>
+              <div>
+                <img src="[[rootPath]]images/dylan_icon.png" height="48" width="48">
+              </div>
             </app-toolbar>
           </app-header>
 
@@ -244,6 +271,9 @@ class DylanApp extends PolymerElement {
             <dylan-contact name="contact"></dylan-contact>
             <dylan-404 name="404"></dylan-404>
           </iron-pages>
+          <footer>
+            Dylan Yates &copy; 2018 - All Rights Reserved
+          </footer>
         </app-header-layout>
       </app-drawer-layout>
     `;
@@ -251,17 +281,15 @@ class DylanApp extends PolymerElement {
 
   static get properties() {
     return {
-      _route: Object,
-      page: {
-        type: String,
-        reflectToAttribute: true,
-        observer: '_pageChanged',
-      },
-      _routeData: Object,
-      _subRoute: Object,
-      rootPath: String,
-      elements: Object,
-      graphics: Object
+        _route: Object,
+        page: {
+            type: String,
+            reflectToAttribute: true,
+            observer: '_pageChanged',
+        },
+        _routeData: Object,
+        _subRoute: Object,
+        rootPath: String
     };
   }
 
@@ -269,6 +297,11 @@ class DylanApp extends PolymerElement {
     return [
       '_routePageChanged(_routeData.page)'
     ];
+  }
+
+  ready() {
+      super.ready();
+      this.removeAttribute('unresolved');
   }
 
   _routePageChanged(page) {
@@ -316,6 +349,12 @@ class DylanApp extends PolymerElement {
         break;
     }
   }
-}
 
+}
+const _customElementsDefine = window.customElements.define;
+window.customElements.define = function(name, clazz, config) {
+  if (!customElements.get(name)) {
+    _customElementsDefine.call(window.customElements, name, clazz, config);
+  }
+};
 window.customElements.define('dylan-app', DylanApp);

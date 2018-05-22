@@ -4,6 +4,7 @@ import '@polymer/iron-selector/iron-selector.js';
 import '@polymer/paper-card/paper-card.js';
 import '@polymer/iron-image/iron-image.js';
 import './dylan-icons.js';
+import './dylan-home.js';
 import './home-card.js';
 import './shared-styles.js';
 
@@ -89,9 +90,12 @@ class DylanHome extends PolymerElement {
         margin-left: auto;
         margin-right: 0;
         margin-top: 16px;
-        color: #fff;
+        color: var(--material-dark-theme-disabled-text);
         text-align: center;
         border-radius: 2px;
+      }
+      .anchor-button:hover {
+          color: var(--material-dark-theme-primary-text);
       }
       @media (max-width: 992px) {
         .container {
@@ -199,11 +203,7 @@ class DylanHome extends PolymerElement {
   static get properties() {
     return {
       elements: Object,
-      page: {
-        type: String,
-        reflectToAttribute: true,
-        observer: '_pageChanged',
-      },
+      page: String,
       rootPath: String
     }
   }

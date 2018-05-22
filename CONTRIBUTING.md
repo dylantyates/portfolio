@@ -16,6 +16,6 @@ Make sure to have atomic commits and contextual commit messages!
 
 [Check out this awesome blog post by Chris Beams for more information.][3]
 
-[1]: https://github.com/dylantyates/cookiecutter-web-example/issues/new
-[2]: https://github.com/dylantyates/cookiecutter-web-example/compare
+[1]: https://github.com/dylantyates/portfolio/issues/new
+[2]: https://github.com/dylantyates/portfolio/compare
 [3]: http://chris.beams.io/posts/git-commit/

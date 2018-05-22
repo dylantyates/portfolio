@@ -1,6 +1,13 @@
 [
   {
     "graphics_category": "Logos",
+    "graphics_color": "#FFCA28",
+    "graphics_name": "PolyFireApp",
+    "graphics_lead": "Build progressive web apps.",
+    "graphics_image": "images/graphics/polyfire-cat.png"
+  },
+  {
+    "graphics_category": "Logos",
     "graphics_color": "#0076CA",
     "graphics_name": "cookiecutter-git",
     "graphics_lead": "A project template for git repos.",

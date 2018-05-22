@@ -11,13 +11,14 @@ class DylanSocial extends PolymerElement {
                 display: block;
                 }
             </style>
+
             <iron-ajax
                 auto
                 handle-as="json"
                 url="[[rootPath]]data/elements_social.json"
-                last-response="{{elements}}"></iron-ajax>
+                last-response="{{elementsSocial}}"></iron-ajax>
 
-            <iron-list items="[[elements]]" as="item" grid>
+            <iron-list items="[[elementsSocial]]" as="item" grid>
                 <template>
                     <div>
                         <element-card
@@ -35,7 +36,7 @@ class DylanSocial extends PolymerElement {
 
     static get properties() {
         return {
-            elements: Object,
+            elementsSocial: Object,
             rootPath: String
         }
     }

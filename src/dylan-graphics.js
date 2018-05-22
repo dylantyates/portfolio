@@ -11,6 +11,7 @@ class DylanGraphics extends PolymerElement {
                     display: block;
                 }
             </style>
+
             <iron-ajax
                 auto
                 handle-as="json"

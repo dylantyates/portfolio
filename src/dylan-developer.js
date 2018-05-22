@@ -11,13 +11,14 @@ class DylanDeveloper extends PolymerElement {
                 display: block;
                 }
             </style>
+
             <iron-ajax
                 auto
                 handle-as="json"
                 url="[[rootPath]]data/elements_developer.json"
-                last-response="{{elements}}"></iron-ajax>
+                last-response="{{elementsDeveloper}}"></iron-ajax>
 
-            <iron-list items="[[elements]]" as="item" grid>
+            <iron-list items="[[elementsDeveloper]]" as="item" grid>
                 <template>
                     <div>
                         <element-card
@@ -35,7 +36,7 @@ class DylanDeveloper extends PolymerElement {
 
     static get properties() {
         return {
-            elements: Object,
+            elementsDeveloper: Object,
             rootPath: String
         }
     }
