@@ -1,10 +1,10 @@
 {
-  "name": "polymer-starter-kit",
-  "version": "4.0.0",
-  "description": "A starting point for Polymer apps",
-  "author": "The Polymer Authors",
-  "license": "BSD-3-Clause",
-  "repository": "Polymer/polymer-starter-kit",
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "My code and graphics portfolio",
+  "author": "Dylan Yates",
+  "license": "MIT",
+  "repository": "dylantyates/portfolio",
   "scripts": {
     "start": "polymer serve",
     "build": "polymer build",
