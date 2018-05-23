@@ -60,7 +60,7 @@ coverage
 build/Release
 
 # Dependency directories
-# remove for development node_modules
+node_modules
 jspm_packages/
 
 # Typescript v1 declaration files
