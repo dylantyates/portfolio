@@ -164,6 +164,7 @@ class DylanApp extends PolymerElement {
         }
         iron-pages {
             padding-bottom: 64px;
+            min-height: 100vh;
         }
         footer {
             position: absolute;
@@ -297,11 +298,6 @@ class DylanApp extends PolymerElement {
     return [
       '_routePageChanged(_routeData.page)'
     ];
-  }
-
-  ready() {
-      super.ready();
-      this.removeAttribute('unresolved');
   }
 
   _routePageChanged(page) {
