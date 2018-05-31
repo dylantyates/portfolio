@@ -3,6 +3,11 @@
 ### Build ###
 build/
 
+### Firebase ###
+firebase.json
+.firebaserc
+public/
+
 ### Git ###
 *.orig
 
