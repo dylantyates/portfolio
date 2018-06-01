@@ -2,7 +2,7 @@
   "entrypoint": "index.html",
   "shell": "src/dylan-app.js",
   "sources": [
-    "data/**.json",
+    "data/**/*",
     "images/**/*",
     "src/**/*"
   ],
@@ -68,7 +68,7 @@
         "minify": true
       },
       "bundle": true,
-      "addServiceWorker": true
+      "addServiceWorker": false
     }
   ],
   "moduleResolution": "node",

@@ -294,6 +294,11 @@ class DylanApp extends PolymerElement {
     };
   }
 
+  ready() {
+    super.ready();
+    this.removeAttribute('unresolved');
+  }
+
   static get observers() {
     return [
       '_routePageChanged(_routeData.page)'

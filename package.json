@@ -6,7 +6,11 @@
   "repository": "https://github.com/dylantyates/portfolio.git",
   "author": "dylantyates <dyates.texas@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "polymer build --preset es5-bundled && "
+  },
   "dependencies": {
+    "@firebase/app": "^0.3.3",
     "@polymer/app-layout": "^3.0.0-pre.15",
     "@polymer/app-route": "^3.0.0-pre.15",
     "@polymer/iron-ajax": "^3.0.0-pre.19",
