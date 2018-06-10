@@ -1,4 +1,4 @@
-### Dylan Yates
+### Dylan Yates [![Build Status](https://travis-ci.org/dylantyates/portfolio.svg?branch=master)](https://travis-ci.org/dylantyates/portfolio)
 #### <a href="https://dylantyates.com">dylantyates.com</a>
 > I am a front end web developer.
 

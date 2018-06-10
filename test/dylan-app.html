@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+    <title>dylan-all</title>
+
+    <script src="../node_modules/@webcomponents/webcomponentsjs/webcomponents-bundle.js"></script>
+    <script src="../node_modules/wct-browser-legacy/browser.js"></script>
+
+    <!-- Import the element to test -->
+    <script type="module" src="../src/dylan-app.js"></script>
+  </head>
+  <body>
+    <test-fixture id="dylan-app-fixture">
+        <template>
+            <dylan-app></dylan-app>
+        </template>
+      </test-fixture>
+      
+      <script>
+        suite('<dylan-app>', function() {
+          var dylanApp;
+          setup(function() {
+            dylanApp = fixture('dylan-app-fixture');
+          });
+          test('Checks that AppGlobals is set', function() {
+            assert.equal(dylanApp.route, 'route');
+          });
+        });
+      </script>
+  </body>
+</html>

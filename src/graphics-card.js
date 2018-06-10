@@ -73,7 +73,12 @@ class GraphicsCard extends PolymerElement {
     static get properties() {
         return {
             elements: Object,
-            rootPath: String
+            rootPath: String,
+            graphicsCategory: String,
+            graphicsName: String,
+            graphicsColor: String,
+            graphicsImage: String,
+            graphicsLead: String
         }
     }
 }

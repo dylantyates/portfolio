@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+    <title>dylan-all</title>
+
+    <script src="../node_modules/@webcomponents/webcomponentsjs/webcomponents-bundle.js"></script>
+    <script src="../node_modules/wct-browser-legacy/browser.js"></script>
+
+    <!-- Import the element to test -->
+    <script type="module" src="../src/element-card.js"></script>
+  </head>
+  <body>
+    <test-fixture id="element-card-fixture">
+      <template>
+        <element-card
+          element-category="Category"
+          element-name="Name"
+          element-symbol="Nm"
+          element-color="#000000"
+          element-link="https://google.com"
+          element-lead="This is the element lead"></element-card>
+      </template>
+    </test-fixture>
+    
+    <script>
+      suite('<element-card>', function() {
+        var elementCard;
+        setup(function() {
+          elementCard = fixture('element-card-fixture');
+        });
+        test('Checks that the category is set', function() {
+          assert.equal(elementCard.elementCategory, 'Category');
+          assert.equal(elementCard.elementName, 'Name');
+          assert.equal(elementCard.elementSymbol, 'Nm');
+          assert.equal(elementCard.elementColor, '#000000');
+          assert.equal(elementCard.elementLink, 'https://google.com');
+          assert.equal(elementCard.elementLead, 'This is the element lead');
+        });
+      });
+    </script>
+  </body>
+</html>

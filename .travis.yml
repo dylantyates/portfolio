@@ -1,5 +1,6 @@
 language: node_js
 node_js:
+  - "10"
   - "9"
   - "8"
 addons:
@@ -9,9 +10,9 @@ cache:
   directories:
     - node_modules
 install:
-  - npm install --production
+  - yarn install
 before_script:
-  - npm run lint
+  - yarn run lint
 script:
-  - xvfb-run npm run test
-  - xvfb-run npm run test:integration
+  - xvfb-run yarn run test
+  - xvfb-run yarn run test:integration

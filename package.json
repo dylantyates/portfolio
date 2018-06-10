@@ -7,11 +7,11 @@
   "author": "dylantyates <dyates.texas@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "polymer serve --npm",
-    "build": "polymer build --preset es5-bundled",
-    "lint": "polymer lint",
+    "start": "polymer serve",
+    "build": "polymer build",
+    "lint": "polymer lint src",
     "test": "polymer test",
-    "test:integration": "polymer build # test that psk builds without error with the CLI"
+    "test:integration": "polymer build # test that app builds without error with the CLI"
   },
   "dependencies": {
     "@firebase/app": "^0.3.3",
