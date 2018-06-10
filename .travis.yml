@@ -1,7 +1,5 @@
 language: node_js
 node_js:
-  - "10"
-  - "9"
   - "8"
 addons:
   firefox: latest
@@ -14,5 +12,4 @@ install:
 before_script:
   - yarn run lint
 script:
-  - xvfb-run yarn run test
-  - xvfb-run yarn run test:integration
+  - xvfb-run yarn run test -l chrome
