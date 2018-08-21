@@ -4,8 +4,7 @@
   "shell": "src/dylan-app.js",
   "sources": [
     "data/**/*",
-    "images/**/*",
-    "src/**/*"
+    "images/**/*"
   ],
   "extraDependencies": [
     "**.png",
