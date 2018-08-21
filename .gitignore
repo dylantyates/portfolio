@@ -7,7 +7,6 @@ build/
 firebase.json
 .firebase
 .firebaserc
-public/
 
 ### Git ###
 *.orig
@@ -64,6 +63,7 @@ coverage
 
 # Compiled binary addons (http://nodejs.org/api/addons.html)
 build/Release
+build/
 
 # Dependency directories
 node_modules/

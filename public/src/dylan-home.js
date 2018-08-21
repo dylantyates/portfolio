@@ -132,7 +132,7 @@ class DylanHome extends PolymerElement {
           element-name="Dylan Yates"
           element-symbol="Dy"
           element-color="#CFD8DC"
-          element-lead="Welcome to my portfolio. I am a 26 year old front end web developer / graphic designer who currently resides in Houston, TX. Javascript is the future! Click any of the links below to get in touch with me."></home-card>
+          element-lead="Welcome to my portfolio. I am a frontend web developer / graphic designer who currently resides in Houston, TX. Javascript is the future! Click any of the links below to get in touch with me."></home-card>
       </div>
 
       <div class="col col-6">

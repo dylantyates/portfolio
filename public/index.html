@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+    <meta property="og:title" content="Dylan Yates">
+    <meta property="og:image" content="https://dylantyates.com/dylan-og.png">
+    <meta property="og:description" content="My name is Dylan Yates and I am a frontend web developer and graphic designer located in Houston, TX. I specialize in frontend Javascript edge technology like React, Redux, ES6, Polymer, and Node. I also create digital and print graphics for small companies.">
+    <meta property="og:url" content="https://dylantyates.com">
+    <title>Dylan Yates</title>
+    <meta name="description" content="I am a front end web developer. This is my portfolio to showcase my code, graphics, and information about me. Thanks for stopping by!">
+    <base href="/">
+    <link rel="icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#1a2026">
+    <meta name="theme-color" content="#ffffff">
+
+    <script>
+      window.DylanAppGlobals = { rootPath: '/' };
+
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/service-worker.js').then(registration => {
+            console.log('U+1F477 Service Worker registered');
+          }).catch(registrationError => {
+            console.log('SW registration failed: ', registrationError);
+          });
+        });
+      }
+
+    </script>
+
+    <script src="node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+
+    <script type="module" src="src/dylan-app.js"></script>
+
+
+    <style>
+      body {
+        margin: 0;
+        font-family: "Roboto", "Noto", sans-serif;
+        line-height: 1.5;
+        min-height: 100vh;
+        background: url(images/background_mobile.png) repeat center center;
+        background-color: #E0E0E0;
+      }
+      dylan-app[unresolved] {
+          overflow-y: hidden;
+          height: 90vh;
+      }
+      dylan-app[unresolved] > svg {
+        display: inherit;
+        max-width: 100%;
+        max-height: 100vh;
+        height: auto;
+        margin: 0 auto;
+        animation: scaleUp 12s ease infinite alternate;
+      }
+      dylan-app > svg {
+          display: none;
+          animation: none;
+      }
+      @keyframes scaleUp {
+          0% { transform: rotate(360deg); }
+          100% {  transform: rotate(0); }
+      }
+      @-webkit-keyframes scaleUp {
+          0% { transform: rotate(360deg); }
+          100% {  transform: rotate(0); }
+      }
+    </style>
+  </head>
+  <body>
+    <dylan-app unresolved>
+        <svg width="100%" height="100%" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+            <g transform="matrix(0.75,0,0,0.75,-1101.75,-119.25)">
+                <g id="Element" transform="matrix(0.13278,0,0,0.116152,1265.32,71.5372)">
+                    <rect x="1534" y="753" width="482" height="551" style="fill:none;"/>
+                    <g transform="matrix(0.968594,6.56268e-17,-2.75345e-17,1.10725,674.492,-130.335)">
+                        <g>
+                            <g transform="matrix(1.36728,-4.62233e-31,-2.26043e-31,1.36988,-241.214,-331.418)">
+                                <ellipse cx="1008.66" cy="1018.31" rx="10.146" ry="10.188" style="fill:rgb(72,96,105);"/>
+                            </g>
+                            <g transform="matrix(1.36728,-4.62233e-31,-2.26043e-31,1.36988,-227.342,-337.427)">
+                                <ellipse cx="1008.66" cy="1018.31" rx="10.146" ry="10.188" style="fill:rgb(106,139,152);"/>
+                            </g>
+                            <g transform="matrix(1.36728,-4.62233e-31,-2.26043e-31,1.36988,-241.214,-347.764)">
+                                <ellipse cx="1008.66" cy="1018.31" rx="10.146" ry="10.188" style="fill:rgb(93,124,135);"/>
+                            </g>
+                            <g transform="matrix(1.36728,-4.62233e-31,-2.26043e-31,1.36988,-258.599,-337.427)">
+                                <ellipse cx="1008.66" cy="1018.31" rx="10.146" ry="10.188" style="fill:rgb(106,139,152);"/>
+                            </g>
+                            <g transform="matrix(1.36728,-4.62233e-31,-2.26043e-31,1.36988,-258.599,-359.331)">
+                                <ellipse cx="1008.66" cy="1018.31" rx="10.146" ry="10.188" style="fill:rgb(72,96,105);"/>
+                            </g>
+                            <g transform="matrix(1.36728,-4.62233e-31,-2.26043e-31,1.36988,-241.214,-365.34)">
+                                <ellipse cx="1008.66" cy="1018.31" rx="10.146" ry="10.188" style="fill:rgb(106,139,152);"/>
+                            </g>
+                            <g transform="matrix(1.36728,-4.62233e-31,-2.26043e-31,1.36988,-227.342,-357.238)">
+                                <ellipse cx="1008.66" cy="1018.31" rx="10.146" ry="10.188" style="fill:rgb(72,96,105);"/>
+                            </g>
+                        </g>
+                        <g transform="matrix(0.507628,0.879238,-0.939692,0.542532,1535.79,-548.698)">
+                            <ellipse cx="1164" cy="1054.04" rx="53" ry="169.956" style="fill:none;stroke:rgb(38,50,55);stroke-width:17.95px;"/>
+                        </g>
+                        <g transform="matrix(2.02065,0,0,2.02449,-831.5,-1107.19)">
+                            <ellipse cx="1008.66" cy="1018.31" rx="10.146" ry="10.188" style="fill:rgb(26,35,38);"/>
+                        </g>
+                        <g transform="matrix(0.507628,-0.879238,0.939692,0.542532,-445.165,1498.17)">
+                            <ellipse cx="1164" cy="1054.04" rx="53" ry="169.956" style="fill:none;stroke:rgb(38,50,55);stroke-width:17.95px;"/>
+                        </g>
+                        <g transform="matrix(2.02065,0,0,2.02449,-976.274,-994.353)">
+                            <ellipse cx="1008.66" cy="1018.31" rx="10.146" ry="10.188" style="fill:rgb(26,35,38);"/>
+                        </g>
+                        <g transform="matrix(1.01526,-1.66533e-16,1.16573e-15,1.08506,-45.5671,-97.1175)">
+                            <ellipse cx="1164" cy="1054.04" rx="53" ry="169.956" style="fill:none;stroke:rgb(38,50,55);stroke-width:17.95px;"/>
+                        </g>
+                        <g transform="matrix(2.02065,0,0,2.02449,-854.56,-919.222)">
+                            <ellipse cx="1008.66" cy="1018.31" rx="10.146" ry="10.188" style="fill:rgb(26,35,38);"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </svg>
+    </dylan-app>
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase-app.js"></script>
+    <script>
+        var config = {
+            apiKey: "AIzaSyBzMSEUndHRvhexlOj9uxGyegqg9JKa0N0",
+            projectId: "poly-fire-821f5"
+        };
+
+        firebase.initializeApp(config);
+    </script>
+    <noscript>
+      Please enable JavaScript to view this website.
+    </noscript>
+  </body>
+</html>

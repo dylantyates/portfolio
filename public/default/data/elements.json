@@ -1,0 +1,522 @@
+[
+  {
+    "element_category": "Developer",
+    "element_color": "#0379c4",
+    "element_symbol": "A",
+		"element_name": "AMP",
+    "element_link": "https://www.ampproject.org/",
+    "element_lead": "The project enables the creation of websites and ads that are consistently fast, beautiful and high-performing across devices and distribution platforms."
+  },
+  {
+    "element_category": "Developer",
+    "element_color": "#b52e31",
+    "element_symbol": "Ag",
+		"element_name": "AngularJS",
+    "element_link": "https://angularjs.org/",
+    "element_lead": "AngularJS is a toolset for building the framework most suited to your application development. It is fully extensible and works well with other libraries."
+  },
+  {
+    "element_category": "Designer",
+    "element_color": "#ff7b01",
+    "element_symbol": "Ai",
+		"element_name": "Illustrator",
+    "element_link": "http://www.adobe.com/products/illustrator.html",
+    "element_lead": "The industry-standard vector graphics app from Adobe lets you create logos, icons, drawings, typography, and illustrations for print, web, video, and mobile."
+  },
+  {
+    "element_category": "Personal",
+    "element_color": "#6A1B9A",
+    "element_symbol": "Am",
+    "element_name": "Allison Mills",
+    "element_link": "https://www.linkedin.com/in/allison-mills-78a82591",
+    "element_lead": "One of the most creative people I know. She is the primary muse for my designs, inspirations, and art style. We met during our time at Texas A&M."
+  },
+  {
+    "element_category": "Designer",
+    "element_color": "#009688",
+    "element_symbol": "An",
+		"element_name": "Web Animation",
+    "element_link": "https://www.w3.org/TR/web-animations-1/",
+    "element_lead": "The next wave of the web is coming and it will be more interactive and more animated than ever. CSS animations, SVG animations, you name it and it can be done."
+  },
+  {
+    "element_category": "Designer",
+    "element_color": "#690085",
+    "element_symbol": "Ap",
+		"element_name": "Affinity Photo",
+    "element_link": "https://affinity.serif.com/en-us/photo/",
+    "element_lead": "Faster, smoother and more powerful than ever, Affinity Photo continues to push the boundaries for professional photo editing software while its price point remains low."
+  },
+  {
+    "element_category": "Developer",
+    "element_color": "#67595c",
+    "element_symbol": "At",
+		"element_name": "Atom",
+    "element_link": "https://atom.io/",
+    "element_lead": "Atom is a text editor that's modern, approachable, yet hackable to the core. A tool you can customize to do anything but also use productively without nasty config files."
+  },
+  {
+    "element_category": "Developer",
+    "element_color": "#0783cb",
+    "element_symbol": "Ax",
+		"element_name": "Ajax",
+    "element_link": "https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX",
+    "element_lead": "AJAX stands for Asynchronous JavaScript And XML. In a nutshell, it is the use of the XMLHttpRequest object to communicate with servers in order to send and receive requests."
+  },
+  {
+    "element_category": "Developer",
+    "element_color": "#00abed",
+    "element_symbol": "Az",
+		"element_name": "Azure",
+    "element_link": "https://azure.microsoft.com/en-us/",
+    "element_lead": "One of the leading cloud server providers on the market. Turn your ideas into solutions faster using a trusted cloud that is designed for you. Azure. Cloud for all."
+  },
+  {
+    "element_category": "Developer",
+    "element_color": "#2098f5",
+    "element_symbol": "B",
+		"element_name": "Brackets",
+    "element_link": "http://brackets.io/",
+    "element_lead": "A modern, open source text editor that understands web design. It's crafted from the ground up for web designers and front-end developers with an awesome Live Preview feature."
+  },
+  {
+    "element_category": "Personal",
+    "element_color": "#0D47A1",
+    "element_symbol": "Bl",
+		"element_name": "Blues",
+    "element_link": "https://hobmusicforward.org/donate/",
+    "element_lead": "Whether it be BB, Albert, Derek, Freddie, Stevie, or Jimi, blues gets to the heart and soul of music while maintaining raw power. All it takes is one time and you'll be hooked."
+  },
+  {
+    "element_category": "Developer",
+    "element_color": "#FFCC2F",
+    "element_symbol": "Bw",
+    "element_name": "Bower",
+    "element_link": "https://bower.io/",
+    "element_lead": "A package manager for handling development dependencies, optimized for the front end. Polymer uses bower by default for dependency management. Heed their recommendation though."
+  },
+  {
+    "element_category": "Developer",
+    "element_color": "#274ce4",
+    "element_symbol": "C",
+		"element_name": "CSS",
+    "element_link": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3",
+    "element_lead": "CSS3 is the latest evolution of the Cascading Style Sheets language. It brings a lot of long-awaited novelties, gruntless work, as well as new layouts to the web."
+  },
+  {
+    "element_category": "Designer",
+    "element_color": "#f94cff",
+    "element_symbol": "Cc",
+    "element_name": "Adobe Color",
+    "element_link": "https://color.adobe.com/create/color-wheel/",
+    "element_lead": "Formerly known as Kuler, Adobe Color CC is an excellent tool for creating striking and vibrant color palettes for any design purpose. It has a huge collection of example palettes."
+  },
+  {
+    "element_category": "Personal",
+    "element_color": "#40210a",
+    "element_symbol": "Cf",
+		"element_name": "Coffee",
+    "element_link": "http://www.ncausa.org/About-Coffee/What-is-Coffee",
+    "element_lead": "Ask any developer and what is there one neccessity? Of course its coffee. This magical elixir of bean and caffeine super charges developers allowing them to build the web."
+  },
+  {
+    "element_category": "Personal",
+    "element_color": "#030303",
+    "element_symbol": "Ch",
+		"element_name": "Chieftan",
+    "element_link": "http://www.houstonspca.org/",
+    "element_lead": "Aka Nugget or Chief for short. Chieftan is the coolest black cat. He enjoys long walks on the beach, killing bugs, eating too much food, and drooling all over my belongings."
+  },
+  {
+    "element_category": "Developer",
+    "element_color": "#953dac",
+    "element_symbol": "Cs",
+		"element_name": "C#",
+    "element_link": "https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/",
+    "element_lead": "A multi-paradigm, object-oriented (class-based) programming language encompassing many strong features. It was developed by Microsoft within its .NET initiative."
+  },
+  {
+    "element_category": "Developer",
+    "element_color": "#092e21",
+    "element_symbol": "Dj",
+		"element_name": "Django",
+    "element_link": "https://www.djangoproject.com/",
+    "element_lead": "Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design. The best part, it’s free and open source."
+  },
+  {
+    "element_category": "Personal",
+    "element_color": "#FFF9C4",
+    "element_symbol": "Dn",
+		"element_name": "Dinky",
+    "element_link": "http://www.houstonspca.org/",
+    "element_lead": "Aka Honey the Puppy Girl. Don't be fooled by her sweetness she can take out an army of squirrels if need be. You can often find her protecting her dad under his cloffice desk."
+  },
+  {
+    "element_category": "Personal",
+    "element_color": "#1a2026",
+    "element_symbol": "Dy",
+		"element_name": "Dylan Yates",
+    "element_link": "https://dylantyates.github.io/",
+    "element_lead": "A 26 year old front end developer and graphic designer that lives in Houston, TX. He often spends his time playing guitar, coding the web, and trying to outsmart his cat at every turn."
+  },
+  {
+    "element_category": "Personal",
+    "element_color": "#E65100",
+    "element_symbol": "E",
+		"element_name": "Economics",
+    "element_link": "https://www.economist.com/",
+    "element_lead": "The branch of knowledge concerned with the production, consumption, and transfer of finite resources. I gained my Bachelor of Science in Economics from Texas A&M University in 2013."
+  },
+  {
+    "element_category": "Developer",
+    "element_color": "#3b4854",
+    "element_symbol": "Ex",
+		"element_name": "Express",
+    "element_link": "https://expressjs.com/",
+    "element_lead": "Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications. Fast, unopinionated, and minimal."
+  },
+  {
+    "element_category": "Personal",
+    "element_color": "#EF5350",
+    "element_symbol": "F",
+		"element_name": "Family",
+    "element_link": "https://www.google.com/maps/place/Yates+Garage/@30.0166803,-95.6449603,17z/data=!3m1!4b1!4m5!3m4!1s0x8640d35e48336613:0x5fc080c86ffb8783!8m2!3d30.0166803!4d-95.6427716",
+    "element_lead": "The reason I am on this Earth and the owners of Yates Garage in Cypress, TX. My family is very important to me. Thank you for all you do for me and I love you all!"
+  },
+  {
+    "element_category": "Developer",
+    "element_color": "#f05033",
+    "element_symbol": "G",
+		"element_name": "Git",
+    "element_link": "https://git-scm.com/",
+    "element_lead": "Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. My preferred VCS."
+  },
+  {
+    "element_category": "Developer",
+    "element_color": "#4285f4",
+    "element_symbol": "Gg",
+		"element_name": "Google",
+    "element_link": "https://www.google.com/",
+    "element_lead": "The leader in web technology and creators of Android. I follow their design practices, their progressive web app technology, and their business practices rigorously. "
+  },
+  {
+    "element_category": "Social",
+    "element_color": "#222",
+    "element_symbol": "Gh",
+		"element_name": "Github",
+    "element_link": "https://github.com/dylantyates",
+    "element_lead": "A development platform inspired by the way you work. It allows you to host and review code, manage projects, and build software alongside millions of other developers."
+  },
+  {
+    "element_category": "Designer",
+    "element_color": "#a59775",
+    "element_symbol": "Gm",
+		"element_name": "GIMP",
+    "element_link": "https://www.gimp.org/",
+    "element_lead": "A cross-platform image editor available for GNU/Linux, OS X, Windows and more operating systems. It is free software, you can change its source code and distribute your changes."
+  },
+  {
+    "element_category": "Personal",
+    "element_color": "#dc3628",
+    "element_symbol": "Gt",
+		"element_name": "Guitar",
+    "element_link": "https://www.fender.com/",
+    "element_lead": "My number one instrument and favorite hobby. I've been playing for 10+ years and I'm still learning new things everyday. My axe of choice is a Fender Stratocaster."
+  },
+  {
+    "element_category": "Personal",
+    "element_color": "#F4511E",
+    "element_symbol": "H",
+		"element_name": "Houston",
+    "element_link": "http://www.houstontx.gov/",
+    "element_lead": "The place I call home. I was born and raised in Houston and continue to live here. I'm always proud of my city and the people that make it up. Remember to Be Someone and Go Stros!"
+  },
+  {
+    "element_category": "Social",
+    "element_color": "#405de6",
+    "element_symbol": "Ig",
+		"element_name": "Instagram",
+    "element_link": "https://www.instagram.com/dwreckfoo/",
+    "element_lead": "A web based photo-sharing application and service that allows users to share pictures and videos. This is the home of my downtime design dojo and a big source of creative inspiration."
+  },
+  {
+    "element_category": "Designer",
+    "element_color": "#303030",
+    "element_symbol": "Is",
+		"element_name": "Inkscape",
+    "element_link": "https://inkscape.org/en/",
+    "element_lead": "Inkscape is a professional vector graphics editor for Windows, Mac OS X and Linux. It is a great alternative if your not well off financially. The best part, it's free and open source."
+  },
+  {
+    "element_category": "Developer",
+    "element_color": "#d7ba34",
+    "element_symbol": "Js",
+		"element_name": "Javascript",
+    "element_link": "https://www.javascript.com/",
+    "element_lead": "JavaScript is the programming language of HTML and the web. It allows you to program behaviors, animations, interaction, and so much more into your webpage."
+  },
+  {
+    "element_category": "Personal",
+    "element_color": "#607D8B",
+    "element_symbol": "Jz",
+		"element_name": "Jazz",
+    "element_link": "https://jazzhouston.org/donate/",
+    "element_lead": "The wild west of music where there are no rules and the rhythm is always going. Let Paul, Django, Miles, Stan, and Joe take you on a journey to the far reaches of music."
+  },
+  {
+    "element_category": "Developer",
+    "element_color": "#304ffe",
+    "element_symbol": "Lh",
+		"element_name": "Lighthouse",
+    "element_link": "https://jazzhouston.org/donate/",
+    "element_lead": "An open-source, automated tool for improving the quality of web pages. It has audits for performance, accessibility, progressive web apps, best practices, and more."
+  },
+  {
+    "element_category": "Social",
+    "element_color": "#0077b5",
+    "element_symbol": "Li",
+    "element_name": "LinkedIn",
+    "element_link": "https://www.linkedin.com/in/dylanyates/",
+    "element_lead": "LinkedIn is a business and employment-oriented social networking service that operates via websites and mobile apps. Here you can view my relevant resume info and my network connections."
+  },
+  {
+    "element_category": "Developer",
+    "element_color": "#c0c5ce",
+    "element_symbol": "M",
+		"element_name": "Macbook Pro",
+    "element_link": "https://www.apple.com/",
+    "element_lead": "Apple's premier laptop and my coding weapon of choice. The bonuses include a UNIX based OS, an Intel chip, Retina Display, and the overall asthetic appeal of Apple design."
+  },
+  {
+    "element_category": "Designer",
+    "element_color": "#212121",
+    "element_symbol": "Md",
+		"element_name": "Material Design",
+    "element_link": "https://material.io/",
+    "element_lead": "A visual language for users that synthesizes the classic principles of good design with the innovation and possibility of technology and science. Created and maintained by Google."
+  },
+  {
+    "element_category": "Developer",
+    "element_color": "#589636",
+    "element_symbol": "Mg",
+		"element_name": "MongoDB",
+    "element_link": "https://www.mongodb.com/",
+    "element_lead": "MongoDB is a document database with the scalability and flexibility that you want with the querying and indexing that you need. It is also free and open source."
+  },
+  {
+    "element_category": "Developer",
+    "element_color": "#8D6748",
+    "element_symbol": "Mo",
+		"element_name": "Mocha",
+    "element_link": "https://mochajs.org/",
+    "element_lead": "A feature-rich JavaScript test framework running on Node.js and in the browser, making asynchronous testing simple and fun. It also easily hooks to assertion libraries such as Chai."
+  },
+  {
+    "element_category": "Personal",
+    "element_color": "#000",
+    "element_symbol": "Mt",
+		"element_name": "Mitter",
+    "element_link": "http://www.houstonspca.org/",
+    "element_lead": "Aka Bear The Handsomest Puppy Man that ever did live. Don't let his dopey, lackadaisical nature fool you, he is putting on a show to get your sandwich. He is the #1 fan of Tuxredux's bed."
+  },
+  {
+    "element_category": "Developer",
+    "element_color": "#00758f",
+    "element_symbol": "My",
+		"element_name": "MySQL",
+    "element_link": "https://www.mysql.com/",
+    "element_lead": "The world's most popular open source database. It supports multiple storage engines, replication grouped or ungrouped, partitioning, triggers, views, connectors, and so much more."
+  },
+  {
+    "element_category": "Developer",
+    "element_color": "#cb3837",
+    "element_symbol": "N",
+		"element_name": "npm",
+    "element_link": "https://www.npmjs.com/",
+    "element_lead": "The premier package manager for JavaScript and the world’s largest software registry. Discover packages of reusable code — and assemble them in powerful new ways."
+  },
+  {
+    "element_category": "Developer",
+    "element_color": "#215732",
+    "element_symbol": "No",
+		"element_name": "Node.js",
+    "element_link": "https://nodejs.org/en/",
+    "element_lead": "A javascript runtime built on Chrome's V8 JS engine. It uses an event-driven, non-blocking I/O model that makes it lightweight and efficient for executing server side javascript."
+  },
+  {
+    "element_category": "Developer",
+    "element_color": "#f50c42",
+    "element_symbol": "P",
+		"element_name": "Polymer",
+    "element_link": "https://www.polymer-project.org/",
+    "element_lead": "A javascript library that helps you create custom reusable HTML elements, and use them to build performant, progressive, and maintainable apps. Unlock the power of web components."
+  },
+  {
+    "element_category": "Developer",
+    "element_color": "#316092",
+    "element_symbol": "Pg",
+		"element_name": "PostgreSQL",
+    "element_link": "https://www.postgresql.org/",
+    "element_lead": "A powerful, open source object-relational database system. It has a proven architecture that has earned it a strong reputation for reliability, data integrity, and correctness."
+  },
+  {
+    "element_category": "Developer",
+    "element_color": "#8892be",
+    "element_symbol": "Pp",
+		"element_name": "PHP",
+    "element_link": "http://www.php.net/",
+    "element_lead": "PHP is a popular general-purpose scripting language that is especially suited to web development. Fast, flexibile, and pragmatic, PHP powers some of the most popular websites."
+  },
+  {
+    "element_category": "Designer",
+    "element_color": "#8bc0fc",
+    "element_symbol": "Ps",
+		"element_name": "Photoshop",
+    "element_link": "http://www.adobe.com/products/photoshop.html",
+    "element_lead": "The world's best imagining and design app. Create and enhance photographs, illustrations, and 3D artwork. Design websites and mobile apps. Edit videos, simulate real-life paintings, and more."
+  },
+  {
+    "element_category": "Developer",
+    "element_color": "#4584b6",
+    "element_symbol": "Py",
+		"element_name": "Python",
+    "element_link": "https://www.python.org/",
+    "element_lead": "Python is a programming language that lets you work quickly and integrate systems more effectively. It is one of the most popular open source softwares with amazing documentation."
+  },
+  {
+    "element_category": "Developer",
+    "element_color": "#00d8ff",
+    "element_symbol": "Re",
+		"element_name": "React",
+    "element_link": "https://reactjs.org/",
+    "element_lead": "A javascript library for building user interfaces. It is component based which provides unlimited potential with UX, makes code more predictable, and is easier to debug."
+  },
+  {
+    "element_category": "Designer",
+    "element_color": "#d0639a",
+    "element_symbol": "S",
+		"element_name": "Sass",
+    "element_link": "http://sass-lang.com/",
+    "element_lead": "Syntactically Awesome Style Sheets aka CSS with superpowers. Sass is the most mature, stable, and powerful professional grade CSS extension language in the world."
+  },
+  {
+    "element_category": "Developer",
+    "element_color": "#2cb52e",
+    "element_symbol": "Se",
+		"element_name": "Selenium",
+    "element_link": "http://www.seleniumhq.org/",
+    "element_lead": "Automates browsers! It can automate web applications for testing purposes or can automate mundane web-based administration tasks. Supported by some of the largest browser vendors."
+  },
+  {
+    "element_category": "Personal",
+    "element_color": "#d10914",
+    "element_symbol": "So",
+		"element_name": "Soccer",
+    "element_link": "https://www.bundesliga.com/en/",
+    "element_lead": "The most popular sport in the world. I played soccer throughout my entire childhood and I encourage everybody to try it out. My favorite team is Bayern and my favorite player is Thomas Müller."
+  },
+  {
+    "element_category": "Developer",
+    "element_color": "#f29111",
+    "element_symbol": "Sq",
+		"element_name": "SQL",
+    "element_link": "https://www.w3schools.com/sql/",
+    "element_lead": "Aka Structured Query Language, a standard language for storing, manipulating and retrieving data in databases. Used by some of the most popular databse systems."
+  },
+  {
+    "element_category": "Personal",
+    "element_color": "#500000",
+    "element_symbol": "T",
+		"element_name": "Texas A&M",
+    "element_link": "https://www.tamu.edu/",
+    "element_lead": "Whoop! I'm an Aggie Alumni, Class of 2013 with a B.S. Economics degree. Although I graduated a year early I had a blast during my time here and met a lot of really great people."
+  },
+  {
+    "element_category": "Personal",
+    "element_color": "#020202",
+    "element_symbol": "Tr",
+		"element_name": "Tuxredux",
+    "element_link": "https://github.com/tuxredux",
+    "element_lead": "The better half of Webev. Tux is a Python/Linux guru with a penchant for security, automation, back end development, and data mining. Don't let his tin hat fool you he is a mad genius."
+  },
+  {
+    "element_category": "Developer",
+    "element_color": "#dd4814",
+    "element_symbol": "Ub",
+		"element_name": "Ubuntu",
+    "element_link": "https://www.ubuntu.com/",
+    "element_lead": "An open source software OS that runs from the desktop, to the cloud, to all your internet connected things. The most popular operating system across public/OpenStack clouds."
+  },
+  {
+    "element_category": "Designer",
+    "element_color": "#ff7547",
+    "element_symbol": "Ui",
+		"element_name": "User Interface",
+    "element_link": "https://design.google/",
+    "element_lead": "The space where interactions between humans and machines occur. A good UI is self-explanatory, efficient, enjoyable, and always produces reliable, consistent results."
+  },
+  {
+    "element_category": "Developer",
+    "element_color": "#ae5ba1",
+    "element_symbol": "Ux",
+		"element_name": "User Experience",
+    "element_link": "https://userresearch.google.com/",
+    "element_lead": "User experience encompasses all aspects of the end-user's interaction with the company, its services, and its products. Good UX seamlessly merges simplicity and elegance."
+  },
+  {
+    "element_category": "Designer",
+    "element_color": "#64DD17",
+    "element_symbol": "Vg",
+		"element_name": "Vector Graphics",
+    "element_link": "https://userresearch.google.com/",
+    "element_lead": "The use of polygons to represent images in computer graphics. Each path may be assigned various attributes such as stroke, fill, shape, curve, thickness, and many more."
+  },
+  {
+    "element_category": "Personal",
+    "element_color": "#2962FF",
+    "element_symbol": "W",
+    "element_name": "Webev",
+    "element_link": "https://www.webev.io/",
+    "element_lead": "Digital marketing solutions through progressive web apps, optimized search presence, and finally quality assurance audits on design, performance, accessibility, and security."
+  },
+  {
+    "element_category": "Developer",
+    "element_color": "#8ed7fb",
+    "element_symbol": "Wb",
+		"element_name": "Webpack",
+    "element_link": "https://webpack.js.org/",
+    "element_lead": "A module bundler. Its main purpose is to bundle javascript files for usage in a browser, yet it is also capable of transforming, bundling, or packaging just about any resource or asset."
+  },
+  {
+    "element_category": "Developer",
+    "element_color": "#d0e845",
+    "element_symbol": "Wc",
+		"element_name": "Webcomponents",
+    "element_link": "https://www.webcomponents.org/",
+    "element_lead": "Web components are a set of web platform APIs that allow you to create new custom, reusable, encapsulated HTML tags to use in web pages and web apps. Based on existing web standards."
+  },
+  {
+    "element_category": "Developer",
+    "element_color": "#00a1f1",
+    "element_symbol": "Wi",
+		"element_name": "Windows",
+    "element_link": "https://www.microsoft.com/en-us/windows/",
+    "element_lead": "Microsoft's family of operating systems that dominate the industry with majority market share. Not my preferred choice of OS but definitely a popular option worldwide."
+  },
+  {
+    "element_category": "Developer",
+    "element_color": "#9CCC65",
+    "element_symbol": "X",
+		"element_name": "XPath",
+    "element_link": "https://www.w3schools.com/xml/xpath_intro.asp",
+    "element_lead": "XML Path Language. XPath uses path expressions to select nodes or node-sets in an XML document. It is a major element in the XSLT standard and is a W3C Recommendation."
+  },
+  {
+    "element_category": "Developer",
+    "element_color": "#26789e",
+    "element_symbol": "Yn",
+    "element_name": "Yarn",
+    "element_link": "https://yarnpkg.com/en/",
+    "element_lead": "Fast, reliable, and secure dependency management. It uses caching for ultra fast downloads, checksums for security, and lockfiles for uber compatibility across systems."
+  }
+]

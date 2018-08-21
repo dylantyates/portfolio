@@ -1,0 +1,26 @@
+[
+  {
+    "element_category": "Social",
+    "element_color": "#222",
+    "element_symbol": "Gh",
+    "element_name": "Github",
+    "element_link": "https://github.com/dylantyates",
+    "element_lead": "A development platform inspired by the way you work. It allows you to host and review code, manage projects, and build software alongside millions of other developers."
+  },
+  {
+    "element_category": "Social",
+    "element_color": "#405de6",
+    "element_symbol": "Ig",
+    "element_name": "Instagram",
+    "element_link": "https://www.instagram.com/dwreckfoo/",
+    "element_lead": "A web based photo-sharing application and service that allows users to share pictures and videos. This is the home of my downtime design dojo and a big source of creative inspiration."
+  },
+  {
+    "element_category": "Social",
+    "element_color": "#0077b5",
+    "element_symbol": "Li",
+    "element_name": "LinkedIn",
+    "element_link": "https://www.linkedin.com/in/dylanyates/",
+    "element_lead": "LinkedIn is a business and employment-oriented social networking service that operates via websites and mobile apps. Here you can view my relevant resume info and my network connections."
+  }
+]

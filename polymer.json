@@ -1,4 +1,5 @@
 {
+  "root": "public",
   "entrypoint": "index.html",
   "shell": "src/dylan-app.js",
   "sources": [
@@ -9,7 +10,6 @@
   "extraDependencies": [
     "**.png",
     "package.json",
-    "polymer.json",
     "safari-pinned-tab.svg",
     "browserconfig.xml",
     "site.webmanifest",
@@ -55,7 +55,7 @@
       "addServiceWorker": true
     },
     {
-      "name": "es5-bundled",
+      "name": "es5-bundled-no-sw",
       "js": {
         "minify": true,
         "compile": true,
