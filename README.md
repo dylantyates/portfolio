@@ -1,6 +1,6 @@
 ### Dylan Yates [![Build Status](https://travis-ci.org/dylantyates/portfolio.svg?branch=master)](https://travis-ci.org/dylantyates/portfolio)
 #### <a href="https://dylantyates.com">dylantyates.com</a>
-> I am a front end web developer and graphic designer.
+> web developer
 
 ### Contact Info
 ###### These are the best ways to get in touch with me.
@@ -12,46 +12,24 @@
 ###### I encourage you to check out <a href="https://dylantyates.com">dylantyates.com</a> if you would like to learn more about what I do, see some of my example projects, or check out my blog in a more asthetically pleasing format.
 
 
-#### Current Technology
-###### A list of software that I use most frequently.
-- [Yarn](https://yarnpkg.com/en/)
+#### Current Codebase
+###### A list of software that I work with on a daily basis.
 - [React](https://reactjs.org/)
 - [Redux](https://redux.js.org/)
 - [Node.js](https://nodejs.org/en/)
 - [Git](https://git-scm.com/)
-- [NPM](https://www.npmjs.com/)
+- [npm](https://www.npmjs.com/)
 - [Webpack](https://webpack.js.org/)
 - [Sass](http://sass-lang.com/)
-- [Adobe Illustrator](http://www.adobe.com/products/illustrator.html)
-- [Slack](https://slack.com/)
+- [C#](https://docs.microsoft.com/en-us/dotnet/csharp/)
 
-#### Previous Technology
-###### A list of software that I started out on.
+#### Previous Codebases
+###### A list of software from previous codebases or projects..
 - [Python](https://www.python.org/)
 - [PHP](http://www.php.net/)
+- [Django](https://www.djangoproject.com/)
 - [MySQL](https://www.mysql.com/)
 - [Polymer](https://www.polymer-project.org/)
 - [Bower](https://bower.io/)
-- [Affinity Designer](https://affinity.serif.com/en-us/)
-- [CSS/ShadyCSS](https://github.com/webcomponents/shadycss)
+- [Java](https://www.java.com/en/) 
 
-#### Research and Development
-###### A list of software that I am researching fully.
-- [AngularJS](https://angularjs.org/)
-- [Express](https://expressjs.com/)
-
-#### Professional Projects
-###### A list of professional projects I've either worked on, consulted for, or collaborated on.
-- [Marlin USA Energy](https://marlinusaenergy.com)
-- [setupmystack](https://setupmystack.com)
-- [Tigress Energy Partners](https://tigressenergy.com)
-- [Tigress Financial Partners](http://tigressfp.com/cgi-bin/index.pl)
-- [Excel Automotive Technology](https://excelautotech.com)
-- [Axis BBQ](https://www.axisbbq.com/)
-- [Eye Elegance](http://www.eyeelegance.com/)
-- [Spring Klein Magazine](http://springkleinmagazine.com/)
-- [Camp Lucy](http://www.camplucy.com/)
-- [San Austin Productions](http://www.sanaustinproductions.com/)
-- [CRE Place](https://creplace.com/)
-- [Madd Junkie](https://maddjunkie.com/)
-- [Nanny Guru](https://nannyguru.org/)
