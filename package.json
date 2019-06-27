@@ -1,0 +1,24 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "dylan yates",
+  "main": "index.js",
+  "dependencies": {
+    "firebase-tools": "^7.0.2",
+    "react": "^16.8.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dylantyates/portfolio.git"
+  },
+  "author": "dylan yates",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dylantyates/portfolio/issues"
+  },
+  "homepage": "https://github.com/dylantyates/portfolio#readme"
+}

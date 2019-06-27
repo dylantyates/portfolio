@@ -4,7 +4,6 @@
 build/
 
 ### Firebase ###
-firebase.json
 .firebase
 .firebaserc
 
