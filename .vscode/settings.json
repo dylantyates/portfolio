@@ -1,5 +1,13 @@
 {
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": false,
+  "editor.rulers": [88],
+  "editor.wordWrap": "on",
+  "files.autoSave": "off",
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/.node_modules": true
+  },
   "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
-  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true
 }
