@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "editorconfig.editorconfig",
+    "dbaeumer.vscode-eslint",
+    "formulahendry.auto-rename-tag",
+    "coenraads.bracket-pair-colorizer",
+    "mikestead.dotenv",
+    "toba.vsfire",
+    "shd101wyy.markdown-preview-enhanced",
+    "christian-kohler.npm-intellisense",
+    "esbenp.prettier-vscode",
+  ]
+}
