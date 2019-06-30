@@ -1,5 +1,5 @@
 {
-  "editor.formatOnSave": false,
+  "editor.formatOnSave": true,
   "editor.rulers": [88],
   "editor.wordWrap": "on",
   "files.autoSave": "off",
