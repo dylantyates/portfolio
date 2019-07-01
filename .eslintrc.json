@@ -1,8 +1,5 @@
 {
-  "extends": [
-    "airbnb",
-    "prettier"
-  ],
+  "extends": ["airbnb", "prettier"],
   "env": {
     "browser": true,
     "commonjs": true,
@@ -10,9 +7,7 @@
     "es6": true,
     "jest": true
   },
-  "plugins": [
-    "prettier"
-  ],
+  "plugins": ["prettier"],
   "parserOptions": {
     "ecmaVersion": 2018
   },
@@ -20,6 +15,22 @@
     "no-console": "off",
     "strict": ["error", "global"],
     "curly": "warn",
-    "prettier/prettier": ["error"]
+    "keyword-spacing": ["error"],
+    "prettier/prettier": ["error"],
+    "react/jsx-filename-extension": [
+      {
+        "extensions": [".js", ".jsx"]
+      }
+    ],
+    "react/jsx-one-expression-per-line": [
+      {
+        "allow": "single-child"
+      }
+    ],
+    "react/jsx-closing-bracket-location": [
+      {
+        "location": "after-props"
+      }
+    ]
   }
 }
