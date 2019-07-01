@@ -1,7 +1,7 @@
 {
   "editor.formatOnSave": true,
   "editor.rulers": [88],
-  "editor.wordWrap": "on",
+  "editor.wordWrap": "off",
   "files.autoSave": "off",
   "files.exclude": {
     "**/.git": true,
