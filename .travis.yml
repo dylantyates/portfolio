@@ -1,9 +1,13 @@
 language: node_js
 node_js:
-  - "8"
+  - '8'
 addons:
   firefox: latest
   chrome: stable
+branches:
+  only:
+    - master
+    - staging
 cache:
   directories:
     - node_modules
