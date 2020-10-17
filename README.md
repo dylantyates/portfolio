@@ -6,8 +6,8 @@
 
 ### Contact Info
 
-> **Gmail**: dyates.texas@gmail.com
+> dyates.texas@gmail.com
 
-> **LinkedIn**: [dylanyates](https://www.linkedin.com/in/dylanyates/)
+**LinkedIn**: [dylanyates](https://www.linkedin.com/in/dylanyates/)
 
-> **Instagram**: [@dwreckfoo](https://www.instagram.com/dwreckfoo/)
+**Instagram**: [@dwreckfoo](https://www.instagram.com/dwreckfoo/)
